@@ -41,42 +41,6 @@ I'm a passionate DevOps Engineer focused on building robust, scalable, and secur
 
 ---
 
-### 📊 GitHub Stats
-
-![Mehdi's GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true)
-
----
-
-### 🎯 Key Projects
-
-#### ☁️ Cloud Infrastructure
-- **Status:** Running | **Uptime:** 2 years
-- Scalable Kubernetes clusters with automated deployment pipelines
-
-#### 🐳 Kubernetes & Docker
-- **Status:** Running | **Uptime:** 2 years
-- Container orchestration and microservices architecture
-
-#### 🔄 CI/CD Automation
-- **Status:** Running | **Uptime:** 1 year
-- Automated testing, building, and deployment workflows
-
-#### 📊 Monitoring & Security
-- **Status:** Running | **Uptime:** 1 year
-- Real-time monitoring, alerting, and security hardening
-
-#### 📝 ELK Stack Logging
-- **Status:** Running | **Uptime:** 1 year
-- Centralized logging and log analysis infrastructure
-
-#### 🔐 HashiCorp Vault
-- **Status:** Running | **Uptime:** 200 days
-- Secrets management and secure credential storage
-
----
-
 ### 📫 Let's Connect
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](http://mehdi-chebbi-portfolio.vercel.app/)
@@ -85,20 +49,40 @@ I'm a passionate DevOps Engineer focused on building robust, scalable, and secur
 
 ---
 
-### 💡 Fun Facts
+### 💡 About Me
 
-```yaml
-name: Mehdi Chebbi
-located_in: Tunisia
-current_focus: 
-  - Cloud Native Technologies
-  - Kubernetes Optimization
-  - Security Best Practices
-interests:
-  - DevOps Culture
-  - Automation
-  - Infrastructure as Code
-  - Open Source
+```bash
+$ kubectl get developer mehdi-chebbi -o yaml
+
+apiVersion: v1
+kind: Developer
+metadata:
+  name: Mehdi Chebbi
+  namespace: devops-engineers
+  labels:
+    location: Tunisia
+    role: DevOps Engineer
+    expertise: Cloud Infrastructure
+spec:
+  currentFocus:
+    - Cloud Native Technologies
+    - Kubernetes Optimization
+    - Security Best Practices
+  skills:
+    - Kubernetes & Docker
+    - CI/CD Automation
+    - Monitoring & Logging
+    - Infrastructure as Code
+  interests:
+    - DevOps Culture
+    - Open Source Contribution
+    - System Reliability
+status:
+  phase: Running
+  conditions:
+    - type: Ready
+      status: "True"
+      reason: ContinuousLearning
 ```
 
 ---
