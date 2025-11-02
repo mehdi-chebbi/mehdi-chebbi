@@ -17,6 +17,22 @@ I'm a passionate DevOps Engineer focused on building robust, scalable, and secur
 
 ---
 
+### 💡 My Skills Cluster
+
+```bash
+mehdi@devops-master:~$ kubectl get skills -n devops-engineer
+NAME                     READY   STATUS    RESTARTS   AGE
+cloud-infrastructure     5/5     Running   0          2y
+kubernetes-docker        5/5     Running   0          2y
+cicd-automation          4/4     Running   1          1y
+monitoring-security      4/4     Running   0          1y
+elk-stack-logging        3/3     Running   2          1y
+hashicorp-vault          3/3     Running   0          200d
+mehdi@devops-master:~$ 
+```
+
+---
+
 ### 🛠️ Tech Stack & Tools
 
 #### Cloud & Infrastructure
@@ -44,46 +60,8 @@ I'm a passionate DevOps Engineer focused on building robust, scalable, and secur
 ### 📫 Let's Connect
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](http://mehdi-chebbi-portfolio.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
-
----
-
-### 💡 About Me
-
-```bash
-$ kubectl get developer mehdi-chebbi -o yaml
-
-apiVersion: v1
-kind: Developer
-metadata:
-  name: Mehdi Chebbi
-  namespace: devops-engineers
-  labels:
-    location: Tunisia
-    role: DevOps Engineer
-    expertise: Cloud Infrastructure
-spec:
-  currentFocus:
-    - Cloud Native Technologies
-    - Kubernetes Optimization
-    - Security Best Practices
-  skills:
-    - Kubernetes & Docker
-    - CI/CD Automation
-    - Monitoring & Logging
-    - Infrastructure as Code
-  interests:
-    - DevOps Culture
-    - Open Source Contribution
-    - System Reliability
-status:
-  phase: Running
-  conditions:
-    - type: Ready
-      status: "True"
-      reason: ContinuousLearning
-```
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mehdi-chebbi22/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mehdichebbi111@gmail.com)
 
 ---
 
